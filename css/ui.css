@@ -46,7 +46,25 @@ body
         linear-gradient(145deg, rgb(63, 251, 201), rgb(200, 110, 255));
 }
 
-.div-main-ui
+.div-ui-main
 {
     background-color:hsla(0, 0%, 100%, 0.85);
+}
+
+.ul-ui-main
+{
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(59, 238, 134, 0.2),
+            rgba(255, 255, 255, 0) 35px
+        ),
+        linear-gradient(
+            to top,
+            rgba(200, 53, 230, 0.2),
+            rgba(255, 255, 255, 0) 35px
+        );
 }
